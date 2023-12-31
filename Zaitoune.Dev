@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="title" content="Zaitoune.Dev" >
+    <meta name="keywords" content="Zaitoune, Oussama, Osama, Dev, Development, Developer, Programmer, 
+    Google, Site, SiteWeb, Website, free, premuim, Html5, Html, Css, Css3, Js, JavaScript, Py, Python, 
+    NodeJs, Php, Angular, AngularJs, React, ReactJs, Vue, VueJs, Bootstrap5, Adobe, ui, ux, FrontEnd, Front End, 
+    Front-End, BackEnd, Back End, Back-End, freelance, freelancer, freelancers, upwork, khamsat, mostaql, Zaitoune" />
+    <meta name="description" content="I'm here to turn your ideas into reality by offering innovative software solutions tailored to your individual needs." >
     <meta charset="UTF-8">
-    	<meta name="redirect" content="www.facebook.com" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="hsl(250, 100%, 75%) " >
-    <meta name="theme-color" content="" ><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <meta name="theme-color" content="" >
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- for Microsoft apps-->
+    <meta name="msapplication-TileImage" content="images/profile2.png">
+    <!-- for Facebook & Whatsapp-->
+    <!-- Site Name, Title, and Description to be displayed-->
+    <meta property="og:site_name" content="Zaitoune.Dev">
+    <meta property="og:title" content="Zaitoune.Dev">
+    <meta property="og:description" content="A team specializing in websites design and development">
+    <!-- Image to display -->
+    <meta property="og:image" itemprop=" image"
+    content="images/profile2=.png">
+    <meta property="og:type" content="website" />
+    <meta property="og:image:type" content=" image/png">
+    <!-- Any size up to 300. Anything above 30epx will not work in WhatsApp -->
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+    <!-- Webs ite to visit when clicked in Facebook or WhatsApp-->
+    <meta property="og:url" content=" https://oussamazaitoune7.github.io/Zaitoune.Dev/ ">
     <script type="text/javascript">
     (function() {
     // https://dashboard.emailjs.com/admin/account
@@ -17,423 +39,17 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.css">
     <link rel="alternate" href="atom.xml" type="application/atom+xml" title="Atom">
-    <title>Zaitoune</title>
+    <title>Zaitoune.Dev</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="images/site.webmanifest">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-<button onclick="change()">test</button>
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">|||</label>
-        <label class="logo"><a id="logourl" href="" class="c-white"> Zaitoune<span class="span">.Dev</span></a></label>
-        <ul class="test">
-            <div class="cc">
-            <li class="a"><a class="active" href="#home">Home</a></li>
-            <li class="a"><a href="#about">About</a></li>
-            <li class="a"><a href="#skills">Skills</a></li>
-            <li class="a"><a href="#services">Services</a></li>
-            <li class="a"><a href="#projects">Projects</a></li>
-            </div>
-        </ul>
-    </nav>
-    <section id="home">
-        <div class="container home-content">
-            <div class="home-data">
-                <h3 class="home-subtitle">
-                    Hello, <span class="span">I'm </span>
-                </h3>
-
-                <h1>Oussama Zaitoune</h1>
-
-                <h3 class="home-education">Front-end Developer</h3>
-                <p class="home-description">
-                    With knowledge in web development and
-                    design, I offer the best projects resulting
-                    in quality work.
-                </p>
-                <a id="contact-button" href="#contact">Let's Talk</a>
-            </div>
-            <div class="home-social">
-                <a href="#" target="_blank" class="home-social_link">
-                    <i style="width: 30px; height: 30px;" class="fab fa-github"></i>
-                </a>
-                
-                <a style="margin-inline: 10px;" href="#" target="_blank" class="home-social_link">
-                    <i style="width: 30px; height: 30px;" class="fab fa-twitter"></i>
-
-                </a>
-                <a href="#" target="_blank" class="home-social_link">
-                    <i style="width: 30px; height: 30px;" class="fab fa-facebook"></i>
-                    
-                </a>
-            </div>
-            
-        <div id="big">
-            <svg id="home-blob" class="home-blob hide-phone" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
-                <mask id="maskBlob" mask-type="alpha">
-                   <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
-                   170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
-                   447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
-                   587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
-                   438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"/>
-                </mask>
-                <g mask="url(#maskBlob)">
-                   <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
-                   170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
-                   447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
-                   587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
-                   438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"/>
-             
-                   <rect x="37" width="476" height="630" fill="url(#pattern0)"/>
-                </g>
-             
-                <rect x="37" width="476" height="300" fill="url(#pattern1)"/>
-             
-                <defs>
-                   <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                      <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"/>
-                   </pattern>
-             
-                   <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
-                      <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)" />
-                   </pattern>
-             
-                   <!-- Insert your profile (recommended size: 640 x 940) -->
-                   <image class="home-image" id="imageBlob" href="images/profile.png"/>
-                </defs>
-             </svg>
-        </div>
-
-          
-        <div id="small">
-            <svg id="home-blob2" class="home-blob2" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
-                <mask id="maskBlob" mask-type="alpha">
-                   <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
-                   170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
-                   447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
-                   587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
-                   438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"/>
-                </mask>
-                <g mask="url(#maskBlob)">
-                   <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
-                   170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
-                   447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
-                   587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
-                   438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"/>
-             
-                   <rect x="37" width="476" height="630" fill="url(#pattern0)"/>
-                </g>
-             
-                <rect x="37" width="476" height="300" fill="url(#pattern1)"/>
-             
-                <defs>
-                   <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                      <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"/>
-                   </pattern>
-             
-                   <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
-                      <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)"/>
-                   </pattern>
-             
-                   <!-- Insert your profile (recommended size: 640 x 940) -->
-                   <image class="home-image2" id="imageBlob" href="images/profile.png"/>
-                </defs>
-             </svg>
-        </div>
-    </div>
-    </section>
-
-    <!--===========About me==========-->
-    <section class="about section bg-gray w-100m container" id="about">
-        <div class="about-container pt-50">
-            <div class="about-data pt-50 w-50m f-right bg-gray container">
-                <h3 class="sectio-subtitle">
-                    My <span class="fs-24">Intro</span>
-                </h3>
-                <h2 class="section-title line-80 c-white fs-30">
-                    About Me
-                </h2>
-
-                <p class="about-description line-30 fs-18">
-                    Frontend developer, I create web pages with 
-                    UI / UX user interface, I have years of 
-                    experience and many clients are happy with the 
-                    projects carried out.
-                </p>
-                <a href="#contact" class="button btn">Contact Me</a>
-            </div>
-                <div class="about-image  pt-10 w-50m f-left bg-gray container">
-                    <svg class="about-blob" viewBox="0 0 550 592" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <mask id="maskBorder" mask-type="alpha">
-                           <path d="M263 48.1782C270.426 43.891 279.574 43.891 287 48.1782L501.157 
-                           171.822C508.583 176.109 513.157 184.032 513.157 192.606V439.894C513.157 
-                           448.468 508.583 456.391 501.157 460.678L287 584.322C279.574 588.609 
-                           270.426 588.609 263 584.322L48.843 460.678C41.4174 456.391 36.843 448.468 36.843 
-                           439.894V192.606C36.843 184.032 41.4174 176.109 48.843 171.822L263 48.1782Z" fill="black"/>
-                        </mask>
-                        <g mask="url(#maskBorder)">
-                           <rect x="37" width="476" height="630" fill="url(#pattern2)"/>
-                           
-                           <path d="M285 51.6423L499.157 175.286C505.345 178.859 509.157 185.461 509.157 
-                           192.606V439.894C509.157 447.039 505.345 453.641 499.157 457.214L285 
-                           580.858C278.812 584.43 271.188 584.43 265 580.858L50.843 457.214C44.655 453.641 
-                           40.843 447.039 40.843 439.894V192.606C40.843 185.461 44.655 178.859 50.843 
-                           175.286L265 51.6423C271.188 48.0697 278.812 48.0696 285 51.6423Z" stroke="black" stroke-width="10"/>
-                        </g>
-                     
-                        <rect x="37" width="476" height="300" fill="url(#pattern3)"/>
-                     
-                        <defs>
-                           <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
-                              <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"/>
-                           </pattern>
-                     
-                           <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
-                              <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)"/>
-                           </pattern>
-                     
-                           <!-- Insert your profile (recommended size: 640 x 940) -->
-                           <image class="about-img" id="imageBorder" width="640" height="940" href="images/perfil.png"/>
-                        </defs>
-                     </svg>
-                </div>
-
-        </div>
-    </section>
-    <!-- =========================Skills===================================/ -->
-    <section class="skills section pt-50 container-large" id="skills">
-        <div class="skills-container container">
-            <div class="skills-data">
-                <h3 class="section-subtitle fs-30">
-                    Favorite <span>Skills</span>
-                </h3>
-
-                <h2 class="section-title c-white line-40 fs-40 pt-10 pb-10">
-                    My Skills
-                </h2>
-
-                <p class="skills-description line-40 fs-22">
-                    See fully what skills I have and perform, 
-                    to develop the projects for you.
-                </p>
-
-                <a href="#projects" class="btn button">See Projects</a>
-            </div>
-            <div class="skills-content">
-                <ol class="skills-group"  start="1">
-                    <li class="skils-item"><span>&#128505;</span> HTML & CSS</li>
-                    <li class="skils-item"><span>&#128505;</span> JavaScript</li>
-                    <li class="skils-item"><span>&#128505;</span> Bootstrap</li>
-                    <li class="skils-item"><span>&#128503;</span> React</li>
-                </ol>
-                <ol class="skills-group" start="5">
-                    <li class="skils-item"><span>&#128503;</span> PHP</li>
-                    <li class="skils-item"><span>&#128503;</span> MySql</li>
-                    <li class="skils-item"><span>&#128503;</span> NodeJS</li>
-                </ol>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===========Services========= -->
-    <section class="services section" id="services">
-        <h3 class="section-subtitle">
-            My <span>Services</span>
-        </h3>
-
-        <h2 class="section-title line-80 fs-40 c-white pb-30">What I Do</h2>
-
-        <div class="services-container cc grid">
-            <article class="services-card">
-                <i id="icon" class="fa fa-table-layout"></i>
-                <h2 class="services-title c-white pb-10">Web Developer</h2>
-
-                <p class="services-description">
-                    Development of custom web pages. 
-Using current technologies and 
-libraries of the labor field.
-                </p>
-            </article>
-            
-            <article class="services-card">
-                <i id="icon" class="fa fa-object-ungroup"></i>
-                <h2 class="services-title c-white pb-10">UI/UX Designer</h2>
-
-                <p class="services-description">
-                    I offer design of web interfaces and 
-mobile applications, design made in 
-figma, adobe xd and sketch.
-                </p>
-            </article>
-            
-            <article class="services-card">
-                <i id="icon" class="fa fa-pen-nib"></i>
-                <h2 class="services-title c-white pb-10">Graphic Design</h2>
-
-                <p class="services-description">
-                    I make designs at the client's request, 
-banner design, posters, digital 
-designs among others.
-                </p>
-            </article>
-        </div>
-    </section>
-
-    <!-- ===========Projects=============== -->
-    <section class="projects section" id="projects">
-        <h3 class="section-subtitle">
-            My <span>Projects</span>
-        </h3>
-
-        <h2 class="section-title c-white fs-38">
-            Recent Projects
-        </h2>
-
-        <div class="projects-container container">
-            <article class="projects-card">
-                <img src="images/project-img-1.jpg" alt="" class="projects-img">
-                <div class="projects-modal">
-                    <span class="projects-subtitle">Web</span>
-
-                    <h2 class="projects-title">Modern website</h2>
-
-                    <a id="projectone" href="" class="projects-button">
-                        View demo <i class="fa fa-external-link demo-icon"></i>
-                    </a>
-                </div>
-            </article>
-
-            
-            <article class="projects-card">
-                <img src="images/project-img-2.jpg" alt="" class="projects-img">
-                <div class="projects-modal">
-                    <span class="projects-subtitle">Web</span>
-
-                    <h2 class="projects-title">Modern website</h2>
-
-                    <a id="projecttwo" href="" class="projects-button">
-                        View demo <i class="fa fa-external-link demo-icon"></i>
-                    </a>
-                </div>
-            </article>
-
-            
-            <article class="projects-card">
-                <img src="images/project-img-3.jpg" alt="" class="projects-img">
-                <div class="projects-modal">
-                    <span class="projects-subtitle">Web</span>
-
-                    <h2 class="projects-title">Modern website</h2>
-
-                    <a id="projectthree" href="" class="projects-button">
-                        View demo <i class="fa fa-external-link demo-icon"></i>
-                    </a>
-                </div>
-            </article>
-
-            
-            <article class="projects-card">
-                <img src="images/project-img-4.jpg" alt="" class="projects-img">
-                <div class="projects-modal">
-                    <span class="projects-subtitle">Web</span>
-
-                    <h2 class="projects-title">Modern website</h2>
-
-                    <a id="projectfour" href="" class="projects-button">
-                        View demo <i class="fa fa-external-link demo-icon"></i>
-                    </a>
-                </div>
-            </article>
-
-            
-            <article class="projects-card">
-                <img src="images/project-img-5.jpg" alt="" class="projects-img">
-                <div class="projects-modal">
-                    <span class="projects-subtitle">Web</span>
-
-                    <h2 class="projects-title">Modern website</h2>
-
-                    <a id="projectfive" href="" class="projects-button">
-                        View demo <i class="fa fa-external-link demo-icon"></i>
-                    </a>
-                </div>
-            </article>
-
-            
-            <article class="projects-card">
-                <img src="images/project-img-6.jpg" alt="" class="projects-img">
-                <div class="projects-modal">
-                    <span class="projects-subtitle">Web</span>
-
-                    <h2 class="projects-title">Modern website</h2>
-
-                    <a id="projectsix" href="" class="projects-button">
-                        View demo <i class="fa fa-external-link demo-icon"></i>
-                    </a>
-                </div>
-            </article>
-        </div>
-    </section>
-    <!-- =====================Contact================ -->
-    <section class="contact section" id="contact">
-        <h3 class="section-subtitle">
-            Get In <span>Touch</span>
-        </h3>
-
-        <h2 class="section-title c-white fs-38">
-            Contact Me
-        </h2>
-
-        <div class="contact-container container">
-            <form action="" class="contact-form" id="contact-form">
-                <div class="contact-group">
-                    <input type="text" required placeholder="Enter your name" name="user-name" id="" class="contact-input">
-                    <input type="email" required placeholder="Enter your email" name="user-email" id="" class="contact-input">
-                </div>
-
-                <textarea name="user-project" required placeholder="Enter your message" id="textarea" cols="30" rows="10" class="contact-input"></textarea>
-                <div class="tahakok">
-                <p class="contact-message" id="contact-message"></p>
-                </div>
-                <br>
-                <button type="submit" class="btn contact-button">
-                    Send Message
-                </button>
-            </form>
-        </div>
-    </section>
-<!-- ==========================footer======== -->
-<footer class="footer mt-100">
-    <span class="up"><i class="fa fa-arrow-alt-up icoup"></i></span>
-    <div class="scroller"></div>
-    <div class="footer-container container">
-        <div class="footer-data">
-            <h1 class="footer-title c-white">
-                Zaitoune<span>.Dev</span>
-            </h1>
-
-            <h2 class="footer-education fs-20 c-white">
-                Front End Developer
-            </h2>
-        </div>
-
-        <div class="footer-social">
-            <a href="" target="_blank" class="footer-social-link">
-                <i class="fab fa-facebook"></i>
-            </a>
-            
-            <a href="" target="_blank" class="footer-social-link ml-10 mr-10">
-                <i class="fab fa-instagram"></i>
-            </a>
-            
-            <a href="" target="_blank" class="footer-social-link">
-                <i class="fab fa-twitter"></i>
-            </a>
-        </div>
-
-        <span class="footer-copy fs-18">Copyright &#169; 2022&#x2013;2023 Zaitoune Portfolio</span>
-    </div>
-</footer>
-    <script src="js/script.js"></script>
-    <script src="js/all.min.js"></script>
+<h1>عذرا ❌ الموقع قيد الصيانة. </h1>
+<p>المرجو العودة غذا في المساء للدخول للموقع</p>
+<h2>1 يناير 2024</h2>
+<h1 style="color:red;">قيد الصيانة المرجو الإنتظار > زيتون🌿</h1>
 </body>
 </html>
