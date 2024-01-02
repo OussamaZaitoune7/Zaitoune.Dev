@@ -592,6 +592,9 @@ span{
 .projects-modal h2{
     color:white;
 }
+.projects-modal h2 {
+color: var(--first-color);
+}
 .projects-modal a:hover,
 .demo-icon:hover{
     color: var(--alt2);
@@ -1042,11 +1045,37 @@ span{
 }
 /*====================Media query==============================*/
 
+
+@media  screen and (max-width: 660px) {
+    .skills .skill-box {
+        background: rgb(206, 197, 197);
+        /* display: flex; */
+        /* padding: 15px; */
+        display: block;
+        margin-bottom: 15px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    }
+
+    /* @media  (max-width: 305px) {
+        .label.logo{
+            font-size: 15px;
+        }
+        span{
+            font-size: 15px;
+        }
+        } */
+
 @media  screen and (max-width: 952px) {
     
     label.logo{
-        font-size: 30px;
+        font-size: 18px;
         padding-left: 50px;
+    }
+    span{
+        font-size: 15px;
     }
     nav ul li a{
         font-size: 16px;
@@ -1159,6 +1188,7 @@ span{
 }
 @media  screen and (max-width: 866px) {
     
+    
     .checkbtn{
         display: block;
     }
@@ -1220,7 +1250,7 @@ span{
     .home-data h3{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 16px;
     }
     .home-description{
         text-align: center;
@@ -1285,6 +1315,7 @@ span{
 }
 .about-description{
     padding-block: 20px;
+    font-size: 16px;
 }
 .about-image{
     width: 100%;
@@ -1307,6 +1338,7 @@ span{
 .skills{
     background: var(--container-color);
     margin-top: 240px;
+    padding-inline: 5px;
 }
 .skills-container{
     /* row-gap: 3.5rem; */
@@ -1323,6 +1355,11 @@ span{
     position: relative;
     /* text-align: center; */
     top: -87px;
+}
+
+.skills-description{
+    font-size: 17px;
+    line-height: 30px;
 }
 .services{
     text-align: center;
@@ -1352,6 +1389,27 @@ span{
 }
 #icon{
     color: var(--first-color);
+}
+//for phones
+.projects-card img {
+    padding-inline: 20px;
+    border-radius: 20%;
+}
+
+.section-title{
+    font-size: 18px;
+}
+
+.services-title{
+    font-size: 18px;
+}
+
+.section-subtitle{
+    font-size: 18px;
+}
+
+.sectio-subtitle span{
+    font-size: 18px;
 }
 .contact{
     padding-top: 60px;
@@ -1446,7 +1504,16 @@ span{
 .footer-data{
     text-align: center;
     position: relative;
-    top: 40px;
+    top: 50px;
+}
+.footer-title{
+    font-size: 22px;
+}
+.footer-education{
+    font-size: 14px;
+}
+.footer-copy{
+    font-size: 12px;
 }
 .footer-social{
     background:transparent;
