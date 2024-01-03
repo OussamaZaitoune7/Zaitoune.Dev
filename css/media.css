@@ -573,4 +573,20 @@ position:relative;
     behavior: smooth;
 }
 /* ============================ */
+.projects-modal a{
+animation: pip 1s ease-in alternate infinite;
+}
+
+.projects-modal i{
+color: var(--first-color);
+}
+}
+
+@keyframes pip {
+0%{
+margin-left:5px;
+}
+100%{
+margin-right:5px;
+}
 }
