@@ -24,7 +24,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [OussamaZaitoune7/Zaitoune.Dev](https://github.com/OussamaZaitoune7/Zaitoune.Dev)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|3<br/>Tools used|01/02/24 <br/>Report generated|
+|3<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
