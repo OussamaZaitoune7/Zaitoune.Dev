@@ -963,23 +963,24 @@ color: var(--first-color);
     -ms-transition: all .4s;
     -o-transition: all .4s;
     font-weight: bold;
-    animation: up 1s ease 1s infinite alternate;
-    -webkit-animation: up 1s ease 1s infinite alternate;
+    animation: up 1s ease .7s infinite alternate;
+    -webkit-animation: up .7s ease 1s infinite alternate;
 }
 .up.showup{
     opacity: 1;
 }
 .icoup{
     position: absolute;
-    top: 3px;
-    right: 3px;
+    top: 50%;
+    right: 10%;
+    transform:translate(-50%,-50%);
 }
 @keyframes up {
-    from{
-        bottom: 40px;
-    }
-    to{
+    0%{
         bottom: 50px;
+    }
+    100%{
+        bottom: 40px;
     }
 }
 .up:hover{
