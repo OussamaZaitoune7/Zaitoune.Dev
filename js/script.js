@@ -71,7 +71,7 @@ var notComplete = "❌not complete";
 pOne.setAttribute("data-text", falseProject);
 pTwo.setAttribute("data-text", trueProject);
 pThree.setAttribute("data-text", trueProject);
-pFour.setAttribute("data-text", notComplete);
+pFour.setAttribute("data-text", trueProject);
 pFive.setAttribute("data-text", notComplete);
 pSix.setAttribute("data-text", notComplete);
 // ==================== End For Google drive [Zaitoune.js]========================

@@ -18,7 +18,7 @@
         display: block;
         margin-bottom: 15px;
         text-align: center;
-        padding: 0;
+        padding: 0 20px 30px;
         margin: 0;
     }
     }
@@ -361,11 +361,11 @@ position:relative;
 #icon{
     color: var(--first-color);
 }
-//for phones
+/* //for phones
 .projects-card img {
     padding-inline: 20px;
     border-radius: 20%;
-}
+} */
 
 .section-title{
     font-size: 18px;
@@ -519,17 +519,17 @@ position:relative;
     -ms-transition: .5s;
     -o-transition: .5s;
 }
-.footer-copy{
-    text-align: center;
-    padding-top: 20px;
+.footer-copy{   
+     /* text-align: center; */
+    /* padding-top: 20px; */
     /* left: 50%; */
-    right: 15px;
-    /* transform: translate(-50%);
-    -webkit-transform: translate(-50%);
-    -moz-transform: translate(-50%);
-    -ms-transform: translate(-50%);
-    -o-transform: translate(-50%); */
+    /* right: 15px; */
+    top: 100px;
+    /* bottom: -18px; */
     line-height: 25px;
+    text-align:center;
+    right:-25%;
+    transform:translateX(-50%);
 }
 .zaitoune{
     background: none;
